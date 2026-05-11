@@ -1,0 +1,11 @@
+# Rosavin
+acpype -i rosavin.pdb -c bcc -n 0
+
+# Rosin
+acpype -i rosin.pdb -c bcc -n 0
+
+# L-(+)-Arabinose
+acpype -i l-arabinose.pdb -c bcc -n 0
+
+# Hydrogen peroxide
+acpype -i h2o2.pdb -c bcc -n 0

@@ -1,0 +1,3 @@
+# Hydrogen bond analysis
+
+gmx hbond -s topol.tpr -f traj.xtc -num hbnum.xvg -dist hbdist.xvg

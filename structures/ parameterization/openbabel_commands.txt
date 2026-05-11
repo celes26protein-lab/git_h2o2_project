@@ -1,0 +1,11 @@
+# Rosavin
+obabel input.sdf -O rosavin.pdb --minimize
+
+# Rosin
+obabel input.sdf -O rosin.pdb --minimize
+
+# L-(+)-Arabinose
+obabel input.sdf -O l-arabinose.pdb --minimize
+
+# Hydrogen peroxide
+obabel input.sdf -O h2o2.pdb --minimize

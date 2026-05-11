@@ -1,0 +1,8 @@
+# Step 1: Create simulation box
+gmx editconf -f rosavin.gro -o boxed.gro -c -d 1.0 -bt cubic
+
+# Step 2: Solvate system with SPC/E water
+gmx solvate -cp boxed.gro -cs spc216.gro -o solvated.gro -p system.top
+
+# Step 3: Insert H2O2 molecules
+gmx insert-molecules -f solvated.gro -ci h2o2_GMX.gro -nmol N_H2O2 -o system_final.gro

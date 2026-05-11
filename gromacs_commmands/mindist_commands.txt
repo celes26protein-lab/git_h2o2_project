@@ -1,0 +1,3 @@
+# Minimum distance analysis
+
+gmx mindist -s topol.tpr -f traj.xtc -n index.ndx -od mindist.xvg

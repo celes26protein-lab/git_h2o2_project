@@ -1,0 +1,10 @@
+# RDF analysis
+
+# H2O2 O – Rosavin O
+gmx rdf -s topol.tpr -f traj.xtc -n index.ndx -o rdf_h2o2_rosavin.xvg
+
+# H2O2 O – Water O
+gmx rdf -s topol.tpr -f traj.xtc -n index.ndx -o rdf_h2o2_water.xvg
+
+# Rosavin O – Water O
+gmx rdf -s topol.tpr -f traj.xtc -n index.ndx -o rdf_rosavin_water.xvg

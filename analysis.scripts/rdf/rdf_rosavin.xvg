@@ -1,10 +1,6 @@
 # This file was created Thu May  7 23:29:25 2026
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2019.6 (-:
-# 
-# Executable:   /Users/t.yukako/miniconda3/bin.AVX2_256/gmx
-# Data prefix:  /Users/t.yukako/miniconda3
-# Working dir:  /Users/t.yukako/Desktop/project/rosavin
 # Command line:
 #   gmx rdf -s md.tpr -f md.xtc -n index.ndx -o rdf.xvg
 # gmx rdf is part of G R O M A C S:

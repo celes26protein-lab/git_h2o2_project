@@ -1,7 +1,8 @@
 # Effect of Rosavin, Rosin, and L-(+)-Arabinose on H2O2
 
 Molecular dynamics (MD) simulation project using GROMACS.
-
+paper: https://www.biorxiv.org/content/10.64898/2026.05.21.726678v1
+"Antioxidant properties of Rhodiola rosea" (May 2026 Drew et al.,)
 ---
 
 ## Overview
